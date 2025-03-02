@@ -3,11 +3,12 @@ function Newsletter() {
         <div className="h-screen flex items-center justify-around">
             <div className="flex gap-4">
                 <div >
-                    <img src="../../public/images/image8.jpg" className="w-[17rem] h-[22rem] rounded-md"/>
+                    <img src="/images/image8.jpg" alt="yoga person" className="w-[17rem] h-[22rem] rounded-md"/>
+                
 
                 </div>
                 <div >
-                <img src="../../public/images/image7.jpg" className="w-[17rem] h-[22rem] rounded-md"/>
+                <img src="/images/image7.jpg" alt="yoga person" className="w-[17rem] h-[22rem] rounded-md"/>
 
                 </div>
 

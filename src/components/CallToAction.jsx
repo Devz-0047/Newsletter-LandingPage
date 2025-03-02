@@ -17,7 +17,7 @@ function CallToAction() {
 
         
         <div className="flex items-center justify-center border-[2rem] border-[#FFD4D0] mr-[4rem]">
-            <img src="../../public/images/image6.jpg" className="w-[40rem] h-[32rem] object-cover"/>
+            <img src="/images/image6.jpg" className="w-[40rem] h-[32rem] object-cover"/>
         </div>
     </div>
     )

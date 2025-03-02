@@ -3,7 +3,7 @@ import Blog from './components/Blog'
 import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
 import Herosection from './components/Herosection'
-import Newsletter from './components/newsletter'
+import Newsletter from './components/Newsletter'
 function App() {
  
 

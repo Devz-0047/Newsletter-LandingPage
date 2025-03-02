@@ -1,6 +1,6 @@
 function CallToAction() {
     return (
-        <div className="grid grid-cols-2 grid-rows-1 h-screen place-items-center gap-4 mt-[-5rem]">
+        <div className="grid grid-cols-2 grid-rows-1 min-h-screen place-items-center gap-4 mt-[-5rem]">
             
         <div className="flex flex-col items-start justify-center text-left pl-10 gap-[3rem]">
             

@@ -11,33 +11,16 @@ function App() {
  
 
   return (
-    <div>
-      <div>
+    <div className='overflow-x-hidden'>
+       
         <Herosection/>
-      </div>
-      <div>
         <Description/>
-      </div>
-      <div>
         <Testimonials/>
-      </div>
-      <div>
         <Feature/>
-      </div>
-      <div>
         <CallToAction/>
-      </div>
-      <div>
         <Newsletter/>
-      </div>
-      <div>
         <Blog/>
-      </div>
-      <div>
         <Footer/>
-      </div>
-
-  
     </div>
   )
 }

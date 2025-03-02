@@ -1,6 +1,6 @@
 function Blog() {
     return (
-        <div className="flex h-screen items-start justify-around mx-[5rem] gap-10 mt-26">
+        <div className="flex min-h-screen items-start justify-around mx-[5rem] gap-10 mt-26">
             <div className="flex items-start flex-col justify-around flex-1/3 gap-6 pl-14">
                 <h2 className="font-secondary font-semibold text-6xl">
                     The Shortlist

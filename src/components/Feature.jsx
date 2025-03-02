@@ -1,6 +1,6 @@
 function Feature() {
     return (
-        <div className="h-screen flex items-center justify-center w-screen">
+        <div className="min-h-screen flex items-center justify-center w-screen">
             <div className="">
                 <h2 className="text-7xl font-secondary font-bold max-w-[46rem] leading-[6rem] text-center">
                     "MAKE YOUR <span className="bg-gradient-to-r from-[#ff7a9a] via-[#ffc5e2] to-[#a8636f] text-transparent bg-clip-text">NEWSLETTER</span> A BEAUTIFUL REPRESENTATION OF YOUR COMPANY."

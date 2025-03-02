@@ -1,6 +1,6 @@
 function Newsletter() {
     return (
-        <div className="h-screen flex items-center justify-around">
+        <div className="h-screen flex items-center justify-evenly">
             <div className="flex gap-4">
                 <div >
                     <img src="/images/image8.jpg" alt="yoga person" className="w-[17rem] h-[22rem] rounded-md"/>

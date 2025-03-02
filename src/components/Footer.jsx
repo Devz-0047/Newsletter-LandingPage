@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div className="h-[14rem] bg-primary w-full flex justify-around items-center px-10">
+        <div className="h-[14rem] bg-primary w-full flex justify-around items-center ">
             {/* Title Section */}
             <h3 className="font-secondary text-6xl text-black font-bold flex flex-col gap-5">
                 <span>GOT SUGGESTIONS</span>

@@ -1,8 +1,8 @@
 function Herosection() {
     return (
-        <div className="grid grid-cols-2 grid-rows-1 h-screen place-items-center gap-4">
+        <div className="grid grid-cols-2 grid-rows-1 h-screen place-items-center gap-1">
             
-            <div className="flex flex-col items-start justify-center text-left pl-10 gap-[4rem]">
+            <div className="flex flex-col items-start justify-center text-left ml-[-5rem] gap-[4rem]">
                 <img src='/images/logo.png' className="w-[15rem] h-auto"/>
                 <h1 className="flex flex-col justify-start text-8xl font-bold font-secondary gap-4">
                     <span>The</span>

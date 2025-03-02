@@ -1,10 +1,10 @@
 function CallToAction() {
     return (
-        <div className="grid grid-cols-2 grid-rows-1 min-h-screen place-items-center gap-4 mt-[-5rem]">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-1 min-h-screen place-items-center gap-2 md:mt-[-5rem] min-h-screen">
             
-        <div className="flex flex-col items-start justify-center text-left pl-10 gap-[3rem]">
+        <div className="flex flex-col items-start justify-center text-left md:pl-10 gap-4  md:gap-[3rem]">
             
-            <h1 className="flex flex-col justify-start text-7xl font-bold font-secondary gap-4">
+            <h1 className="flex flex-col justify-start text-6xl md:text-7xl font-bold font-secondary gap-4">
                 <span>Mental Health</span>
                 
                 <span>Matters</span>
@@ -16,8 +16,8 @@ function CallToAction() {
         </div>
 
         
-        <div className="flex items-center justify-center border-[2rem] border-[#FFD4D0] mr-[4rem]">
-            <img src="/images/image6.jpg" className="w-[40rem] h-[32rem] object-cover"/>
+        <div className="flex items-center justify-center border-4 md:border-[2rem] border-[#FFD4D0] mx-4 md:mr-[4rem]">
+            <img src="/images/image6.jpg" className="h-[24rem] w-[22rem] md:w-[40rem] md:h-[32rem] object-cover"/>
         </div>
     </div>
     )

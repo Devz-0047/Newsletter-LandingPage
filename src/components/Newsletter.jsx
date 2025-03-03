@@ -1,7 +1,12 @@
+import {motion} from 'framer-motion';  // eslint-disable-line no-unused-vars
 function Newsletter() {
     return (
         <div className="min-h-screen flex items-center justify-center md:justify-evenly flex-wrap ">
-            <div className="flex gap-4">
+            <motion.div className="flex gap-4" 
+                 initial={{ opacity: 0, y: -50 }}
+                 whileInView={{ opacity: 1, y: 0 }}
+                 transition={{ duration: 1, ease: "easeOut" }} 
+                 viewport={{ once: true }}>
                 <div >
                     <img src="/images/image8.jpg" alt="yoga person" className="w-[17rem] h-[22rem] rounded-md"/>
                 
@@ -12,8 +17,12 @@ function Newsletter() {
 
                 </div>
 
-            </div>
-            <div className="font-primary flex flex-col gap-4 md:gap-8 items-center justify-center pl-4">
+            </motion.div>
+            <motion.div className="font-primary flex flex-col gap-4 md:gap-8 items-center justify-center pl-4"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }} 
+            viewport={{ once: true }}>
                 <h2 className="text-2xl md:text-3xl font-bold text-primary max-w-[36rem] leading-[2rem]">
                 "Company newsletters are essential in building relationships with your employees and customers."
                 </h2>
@@ -24,7 +33,7 @@ function Newsletter() {
                 When sending out a company newsletter, keep in mind these three things. First, send out your newsletter regularly. Stick to your promise if it’s going to be weekly, monthly or quarterly. The second is to have a proper layout. Make your newsletter is interesting and easy to read. Lastly, ensure the quality of the content and images you will share.
                 </p>
 
-            </div>
+            </motion.div>
             
         </div>
     )

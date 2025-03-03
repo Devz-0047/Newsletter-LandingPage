@@ -1,2 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    80% {
+      transform: translateX(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    80% {
+      transform: translateX(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  @keyframes moveInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    80% {
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+.animate__main{
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}  
+.animate__sub{
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+.animate__img {
+    animation-name: moveInDown;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+}

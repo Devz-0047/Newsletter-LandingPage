@@ -1,12 +1,60 @@
-# React + Vite
+# React Animated Webpage with Framer Motion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
 
-Currently, two official plugins are available:
+This is a **React-based** animated webpage that utilizes **Framer Motion** for smooth, scroll-triggered animations. The project enhances user experience with modern UI effects like fade-ins, scaling, and scroll animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Features
 
-## Expanding the ESLint configuration
+- **Smooth Animations** using Framer Motion
+- **Scroll-triggered effects** for engaging transitions
+- **Responsive Design** with Tailwind CSS
+- **Optimized Performance** with efficient animations
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Folder Structure
+
+```
+📦 YourProjectName
+├── 📁 public         # Static assets like images
+├── 📁 src
+│   ├── 📁 components # Reusable UI components
+│   ├── 📄 App.js     # Main application entry
+│   ├── 📄 index.js   # ReactDOM rendering
+│   ├── 📁 App.css     # Global CSS & Tailwind configurations
+├── 📄 package.json   # Dependencies & scripts
+├── 📄 .eslintrc.cjs  # ESLint configuration
+├── 📄 README.md      # Documentation
+```
+
+## 📦 Installation
+
+### 1️⃣ Clone the Repository
+
+```sh
+git clone https://github.com/Devz-0047/Newsletter-LandingPage.git
+cd your-repo
+```
+
+### 2️⃣ Install Dependencies
+
+```sh
+yarn install   # or npm install
+```
+
+### 3️⃣ Start the Development Server
+
+```sh
+yarn dev       # or npm run dev
+```
+
+## 🛠️ Deployment
+
+To deploy on **Vercel**, run:
+
+```sh
+vercel
+```
+
+## 📜 License
+
+This project is open-source under the **MIT License**.
